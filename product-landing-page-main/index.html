@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+
+    <!--link icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- link file css-->
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+           <div class="contanier">
+
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-store"></i>
+                     <h1>Fashion Store</h1>
+                </div>
+
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#"> <i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+
+            <div class="content">
+                <div class="div-text">
+                    <span>OUTFIT OF THE DAY</span>
+                    <h3>all your</h3>
+                    <h1>Styles are there </h1>
+                    <p>Fashion style goes beyond mere clothing and becomes a language of its own,<br>
+                         communicating messages about identity, culture, and personal preferences.<br> 
+                          and everyone as there own taste of style 
+                    </p>
+                         <a href="#"class="btn">buy now</a>
+
+                </div>
+               
+                 <div class="col-mod-4">
+                    <div class="small-img">
+                        <img src="./images/61L6vBSJD4L._AC_UY1100_.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="col-mid-4">
+                    <div class="small-img">
+                        <img src="./images/jacket 1.webp" alt="">
+                    </div>
+                 </div>
+                 <div class="col-mod-4">
+                    <div class="small-img">
+                        <img src="./images/jacket 3.png " alt="">
+                    </div>
+                 </div>
+            </div>
+            </div>
+           </div>
+
+           <script>
+                let bigImage = document.getElementById('big-img')
+               
+                function myTshirt(shirt){
+                    bigImage.src = shirt
+                }
+           </script>
+    </body>
